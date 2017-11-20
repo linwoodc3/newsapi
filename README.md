@@ -43,10 +43,10 @@ upgrade or change your plan, visit https://newsapi.org/pricing.
    # create the object with or without authentication
    api = newsapi.Api(version=1,api_key=<enter apikey>)
 
-   # use version 1 news search by phrase or word of interst
+   # use version 1 news search by phrase or word of interest
    # version 1 will ignore the keywords search
    stories = api.searchnews(sources='usa-today',keywords='chiefs')
 
-   sportsources = api.getsources(category='politics')
+   polsources = api.getsources(category='politics')
 
 ```
